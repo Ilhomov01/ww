@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("img/photo_2023-12-03_09-44-30.jpg");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    padding:10px 100px;
+    align-items: center;
+}
+nav a {
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+.d{
+    text-align: center;
+    margin-top:100px;
+}
+ .d h1{
+    color: rgb(117, 106, 106);   
+    font-size: 70px;
+
+}
+.d h2{
+    color: rgb(117, 101, 101);
+    font-size: 40px;
+}
+span{
+    color: black;
+}
+.IT{
+    display: flex;
+    border-radius: 50px;
+}
+
+input {
+    width: 500px;
+    height: 10px;
+}
+
+.IT > img {
+    width: 20px;
+}
